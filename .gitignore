@@ -1,3 +1,6 @@
 .DS_Store
 .config/tmux/plugins
 .config/nvim/lazy-lock.json
+.config/zed/.tmp*
+.config/zed/prompts/
+.config/zed/embeddings/
