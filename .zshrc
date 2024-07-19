@@ -13,6 +13,7 @@ alias c="clear"
 alias gcw='git commit -m "wip" --no-verify'
 alias code="vim"
 alias ks="tmux kill-server"
+alias py="python3"
 
 function vim() {
     if [[ $# -eq 0 ]]; then
@@ -33,3 +34,6 @@ eval "$(starship init zsh)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# golang
+export PATH="$HOME/go/bin:$PATH"

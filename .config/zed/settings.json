@@ -1,7 +1,12 @@
 {
+  "languages": {
+    "Python": {
+      "show_inline_completions": false
+    }
+  },
   "vim_mode": true,
   "base_keymap": "VSCode",
-  "theme": "Catppuccin Mocha",
+  "theme": "Catppuccin Latte",
   "buffer_font_size": 16,
   "relative_line_numbers": true,
   "buffer_font_family": "Hack Nerd Font",
