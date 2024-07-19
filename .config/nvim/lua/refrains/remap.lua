@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- netrw
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>re", vim.cmd.Ex)
 
 -- move and reindent
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
