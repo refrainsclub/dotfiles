@@ -3,7 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git z node npm yarn brew fd fzf zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git node npm yarn brew fd fzf zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -22,6 +22,9 @@ function vim() {
         nvim "$@"
     fi
 }
+
+# zoxide
+eval "$(zoxide init zsh)"
 
 # starship.rs
 export STARSHIP_CONFIG=~/.config/starship/config.toml

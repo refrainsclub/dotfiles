@@ -18,11 +18,8 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- yank to system clipboard
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
-
--- lsp format
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- warnings
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
