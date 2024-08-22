@@ -1,8 +1,8 @@
 # switching spaces
-alt - q : yabai -m space --focus prev 
-alt - w : yabai -m space --focus next 
+alt - q : yabai -m space --focus prev
+alt - w : yabai -m space --focus next
 
-# navigation 
+# navigation
 alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
@@ -69,7 +69,3 @@ alt + shift - f : yabai -m window --toggle native-fullscreen
 
 # restart yabai
 alt + shift - r : yabai --restart-service
-
-# open terminal
-alt - return : open -na Alacritty.app
-alt - c : open -na Chrome.app

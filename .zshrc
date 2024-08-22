@@ -40,3 +40,11 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # golang
 export PATH="$HOME/go/bin:$PATH"
+
+# tizen
+export PATH="$HOME/tizen-studio/tools/ide/bin:$PATH"
+export PATH="$HOME/tizen-studio/tools:$PATH"
+
+# fix lang
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
